@@ -13,6 +13,9 @@ div#logo {
 }
 
 /*----------------メニュー----------------*/
+header>nav>ul>li {
+    text-align: center;
+}
 li {
     list-style: none;
     width: 25%;
