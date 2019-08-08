@@ -6,9 +6,16 @@
     box-sizing: border-box;
 }
 
+div#logo {
+    background-color: red;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
 /*----------------メニュー----------------*/
 li {
     list-style: none;
+    width: 25%;
 }
 
 a {
@@ -17,8 +24,11 @@ a {
 
 header {
     display: flex;
+    background: black;
 }
-
+nav {
+    width: 100%;
+}
 nav ul {
     display: flex;
 }
