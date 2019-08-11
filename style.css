@@ -6,9 +6,13 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    background: black;
+    height: 60px;
+}
+
 div#logo {
-    background-color: red;
-    border-radius: 10px;
     font-weight: bold;
 }
 #logo span {
@@ -16,10 +20,12 @@ div#logo {
     font-size: 25px;
     background-color: red;
     border-radius: 25px;
+    line-height: 60px;
 }
 /*----------------メニュー----------------*/
 header>nav>ul>li {
     text-align: center;
+    line-height: 60px;
 }
 li {
     list-style: none;
@@ -32,10 +38,6 @@ a {
     text-decoration: none;
 }
 
-header {
-    display: flex;
-    background: black;
-}
 nav {
     width: 100%;
 }
