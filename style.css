@@ -118,3 +118,23 @@ a.btn2 {
     border: 1px solid black;
     color: black;
 }
+
+
+mail_1 {
+    height: 40px;
+    width: 420px;
+    margin-right: -5px;
+    padding-left: 40px;
+    border: 1px solid black;
+    border-radius: 20px 0 0 20px;
+    font-size: 18px;
+}
+
+button#entry {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0 20px 20px 0;
+    font-size: 18px;
+}
