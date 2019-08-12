@@ -119,8 +119,7 @@ a.btn2 {
     color: black;
 }
 
-
-mail_1 {
+input#email_1{
     height: 40px;
     width: 420px;
     margin-right: -5px;
