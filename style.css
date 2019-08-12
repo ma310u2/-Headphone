@@ -165,3 +165,6 @@ div#support-in {
     display: flex;
     justify-content: center;
 }
+div#support-in section {
+    width: 25%;
+}
