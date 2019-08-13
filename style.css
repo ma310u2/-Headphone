@@ -175,7 +175,7 @@ div#support-in section {
 div#support-in img {
     width: 72px;
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 0;
     left: 0;
     margin: auto;
@@ -183,8 +183,8 @@ div#support-in img {
 
 .back-color {
     background-color: black;
-    width: 92px;
-    height: 92px;
-    border-radius: 46px;
+    width: 102px;
+    height: 102px;
+    border-radius: 51px;
     margin: auto;
 }
