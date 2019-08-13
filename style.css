@@ -168,7 +168,23 @@ div#support-in {
 div#support-in section {
     width: 25%;
 }
+div#support-in section {
+    width: 25%;
+    position: relative;
+}
 div#support-in img {
     width: 72px;
-    background-color: aqua;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.back-color {
+    background-color: black;
+    width: 92px;
+    height: 92px;
+    border-radius: 46px;
+    margin: auto;
 }
