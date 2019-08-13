@@ -168,3 +168,7 @@ div#support-in {
 div#support-in section {
     width: 25%;
 }
+div#support-in img {
+    width: 72px;
+    background-color: aqua;
+}
