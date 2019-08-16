@@ -53,28 +53,38 @@ div#sub-menu {
     display: none;
 }
 
-div#item h2 {
-    text-align: center;
-}
-
-div#item-in {
-    display: flex;
-    justify-content: center;
-}
-
 #top-img img {
     width: 100%;
     height: 500px;
+    object-fit: cover;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
 }
 
+/*----------------おすすめ製品----------------*/
 div#item {
     margin-top: 90px;
+}
+div#item h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+div#item-in {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
 }
 div#item-in section img {
     width: 240px;
     height: 240px;
+    display: block;
+    margin: auto;
 }
 
+/*----------------ボタン----------------*/
 a.btn1 {
     color: white;
     background-color: red;
@@ -86,6 +96,21 @@ a.btn1 {
     display: block;
     margin: 0 auto;
 }
+a.btn2 {
+    background-color: white;
+    width: 230px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    color: black;
+}
+
+
+/*----------------NEWcolor----------------*/
 div#new-item {
     position: relative;
     max-width: 1000px;
@@ -110,19 +135,22 @@ div#new-btn {
     display: flex;
 }
 
-a.btn2 {
+/*----------------会員登録----------------*/
+div#member {
+    max-width: 1000px;
+    width: 95%;
+    height: 300px;
     background-color: white;
-    width: 230px;
-    height: 45px;
-    line-height: 45px;
+    margin: 220px auto;
     text-align: center;
-    border-radius: 30px;
-    display: block;
-    margin: 0 auto;
-    border: 1px solid black;
-    color: black;
 }
-
+div#member h2 {
+    font-size: 45px;
+    padding: 50px 0 20px;
+}
+div#member p {
+    margin-bottom: 15px;
+}
 input#email_1{
     height: 40px;
     width: 420px;
@@ -142,16 +170,7 @@ button#entry {
     border-radius: 0 20px 20px 0;
     font-size: 18px;
 }
-
-div#member {
-    max-width: 1000px;
-    width: 95%;
-    height: 300px;
-    background-color: white;
-    margin: 220px auto;
-    text-align: center;
-}
-
+/*----------------サポート----------------*/
 div#support {
     max-width: 1000px;
     width: 95%;
@@ -160,27 +179,36 @@ div#support {
     margin: 220px auto;
     text-align: center;
 }
-
+div#support h2 {
+    padding-top: 50px;
+    font-size: 32px;
+}
+div#support-in p {
+    margin-top: 10px;
+}
 div#support-in {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 div#support-in section {
-    width: 25%;
-}
-div#support-in section {
-    width: 25%;
+    width: 20%;
     position: relative;
 }
 div#support-in img {
-    width: 72px;
+    width: 95px;
     position: absolute;
-    top: 15px;
+    top: 3px;
     right: 0;
     left: 0;
     margin: auto;
+    padding: 10px;
 }
-
+div#support-in img:hover {
+    width: 90px;
+    top: 5px;
+    transition: 0.2s;
+}
 .back-color {
     background-color: black;
     width: 102px;
