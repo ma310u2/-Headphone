@@ -196,7 +196,7 @@ div#support-in section {
     position: relative;
 }
 div#support-in img {
-    width: 95px;
+    width: 85px;
     position: absolute;
     top: 3px;
     right: 0;
@@ -205,14 +205,14 @@ div#support-in img {
     padding: 10px;
 }
 div#support-in img:hover {
-    width: 90px;
+    width: 80px;
     top: 5px;
     transition: 0.2s;
 }
 .back-color {
     background-color: black;
-    width: 102px;
-    height: 102px;
+    width: 92px;
+    height: 92px;
     border-radius: 51px;
     margin: auto;
 }
