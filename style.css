@@ -14,7 +14,11 @@ header {
     background: black;
     height: 60px;
 }
-
+div#header-in {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
 div#logo {
     font-weight: bold;
 }
