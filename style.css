@@ -188,25 +188,43 @@ div#member h2 {
 div#member p {
     margin-bottom: 15px;
 }
-input#email_1{
+input#email_1 {
     height: 40px;
     width: 420px;
     margin-right: -6px;
     padding-left: 40px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px 0 0 20px;
     font-size: 18px;
     border-right: none;
+    transition: 0.6s;
 }
-
 button#entry {
     width: 120px;
     height: 40px;
     background-color: white;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 0 20px 20px 0;
     font-size: 18px;
+    transition: 0.6s;
 }
+
+/*----------------フォーカス色----------------*/
+input#email_1:focus {
+    background-color: aqua;
+    border-radius: 20px;
+    border-right: 2px solid black;
+    width: 545px;
+}
+
+input#email_1:focus+#entry {
+    border-radius: 20px;
+    transform: translate3d(-335px, 60px, 0px);
+    position: absolute;
+    border: 2px solid red;
+}
+
+
 /*----------------サポート----------------*/
 div#support {
     max-width: 1000px;
