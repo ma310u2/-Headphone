@@ -146,6 +146,10 @@ a.btn2 {
   bottom: 0;
   background-color: black;
 }
+i.fas.fa-headphones-alt {
+    font-size: 21px;
+    padding-right: 9px;
+}
 
 /*----------------NEWcolor----------------*/
 div#new-item {
