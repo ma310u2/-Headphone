@@ -14,14 +14,17 @@ header {
     background: black;
     height: 60px;
 }
+
 div#header-in {
     display: flex;
     max-width: 1000px;
     margin: auto;
 }
+
 div#logo {
     font-weight: bold;
 }
+
 #logo span {
     padding: 5px 15px;
     font-size: 25px;
@@ -29,18 +32,22 @@ div#logo {
     border-radius: 25px;
     line-height: 60px;
 }
+
 /*----------------メニュー----------------*/
-header>div>nav>ul>li {
+header > div > nav > ul > li {
     text-align: center;
     line-height: 60px;
 }
+
 li {
     list-style: none;
     width: 25%;
 }
-header>div>nav>ul>li>a {
+
+header > div > nav > ul > li > a {
     color: white;
 }
+
 a {
     text-decoration: none;
 }
@@ -48,6 +55,7 @@ a {
 nav {
     width: 100%;
 }
+
 nav ul {
     display: flex;
 }
@@ -69,17 +77,20 @@ div#sub-menu {
 div#item {
     margin-top: 90px;
 }
+
 div#item h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
 }
+
 div#item-in {
     display: flex;
     justify-content: center;
     max-width: 1000px;
     margin: auto;
 }
+
 div#item-in section img {
     width: 240px;
     height: 240px;
@@ -104,51 +115,58 @@ div#item-in section img {
 
 .btn::before,
 .btn::after {
-  position: absolute;
-  z-index: -1;
-  display: block;
-  content: '';
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: '';
 }
+
 .btn,
 .btn::before,
 .btn::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
 }
+
 .btn::after {
-  bottom: -100%;
-  width: 100%;
-  height: 100%;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
 }
+
 .btn1 {
-  background-color: red;
-  border: 1px solid black;
-  color: white;  
+    background-color: red;
+    border: 1px solid black;
+    color: white;
 }
+
 .btn1:hover {
-  color: red;
+    color: red;
 }
 
 .btn1:hover::after {
-  bottom: 0;
-  background-color: white;
+    bottom: 0;
+    background-color: white;
 }
+
 a.btn2 {
     background-color: white;
     border: 1px solid black;
     color: black;
 }
+
 .btn2:hover {
-  color: white;
+    color: white;
 }
 
 .btn2:hover::after {
-  bottom: 0;
-  background-color: black;
+    bottom: 0;
+    background-color: black;
 }
+
 i.fas.fa-headphones-alt {
     font-size: 21px;
     padding-right: 9px;
@@ -161,6 +179,7 @@ div#new-item {
     height: 500px;
     margin: auto;
 }
+
 div#new-item img {
     width: 100%;
     height: 500px;
@@ -188,13 +207,16 @@ div#member {
     margin: 220px auto;
     text-align: center;
 }
+
 div#member h2 {
     font-size: 45px;
     padding: 50px 0 20px;
 }
+
 div#member p {
     margin-bottom: 15px;
 }
+
 input#email_1 {
     height: 40px;
     width: 420px;
@@ -206,6 +228,7 @@ input#email_1 {
     border-right: none;
     transition: 0.6s;
 }
+
 button#entry {
     width: 120px;
     height: 40px;
@@ -224,18 +247,20 @@ input#email_1:focus {
     width: 545px;
 }
 
-input#email_1:focus+#entry {
+input#email_1:focus + #entry {
     border-radius: 20px;
     transform: translate3d(-335px, 60px, 0px);
     position: absolute;
     border: 2px solid red;
 }
-input#email_1:focus+#entry:hover  {
-  color: white;
+
+input#email_1:focus + #entry:hover {
+    color: white;
 }
-input#email_1:focus+#entry:hover::after {
-  bottom: 0;
-  background-color: red;
+
+input#email_1:focus + #entry:hover::after {
+    bottom: 0;
+    background-color: red;
 }
 
 /*----------------サポート----------------*/
@@ -247,22 +272,27 @@ div#support {
     margin: 220px auto;
     text-align: center;
 }
+
 div#support h2 {
     padding-top: 50px;
     font-size: 32px;
 }
+
 div#support-in p {
     margin-top: 10px;
 }
+
 div#support-in {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
 div#support-in section {
     width: 20%;
     position: relative;
 }
+
 div#support-in img {
     width: 85px;
     position: absolute;
@@ -272,11 +302,13 @@ div#support-in img {
     margin: auto;
     padding: 10px;
 }
+
 div#support-in img:hover {
     width: 80px;
     top: 5px;
     transition: 0.2s;
 }
+
 .back-color {
     background-color: black;
     width: 92px;
