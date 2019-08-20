@@ -318,10 +318,22 @@ div#support-in img:hover {
     border-radius: 51px;
     margin: auto;
 }
+/*----------------フッター----------------*/
+footer {
+    background-color: white;
+}
+div#footer-in {
+    max-width: 1000px;
+    margin: auto;
+}
 div#footer-list {
     display: flex;
 }
 
 div#footer-list>ul {
     display: flex;
+}
+
+div#footer-list a {
+    color: black;
 }
