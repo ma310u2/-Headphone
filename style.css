@@ -37,11 +37,11 @@ div#logo {
 header > div > nav > ul > li {
     text-align: center;
     line-height: 60px;
+    width: 25%;
 }
 
 li {
     list-style: none;
-    width: 25%;
 }
 
 header > div > nav > ul > li > a {
@@ -317,4 +317,11 @@ div#support-in img:hover {
     height: 92px;
     border-radius: 51px;
     margin: auto;
+}
+div#footer-list {
+    display: flex;
+}
+
+div#footer-list>ul {
+    display: flex;
 }
