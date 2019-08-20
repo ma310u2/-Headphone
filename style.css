@@ -96,6 +96,7 @@ div#item-in section img {
     height: 240px;
     display: block;
     margin: auto;
+    object-fit: cover;
 }
 
 /*----------------ボタン----------------*/
@@ -183,6 +184,7 @@ div#new-item {
 div#new-item img {
     width: 100%;
     height: 500px;
+    object-fit: cover;
 }
 
 div#new-item-in {
