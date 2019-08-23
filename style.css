@@ -347,7 +347,7 @@ ul#footer-list-main {
     width: 70%;
 }
 
-#footer-list-main .list-top >a {
+#footer-list-main .list-top >span {
     color: black;
     margin-bottom: 10px;
     display: block;
