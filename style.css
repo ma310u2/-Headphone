@@ -342,9 +342,7 @@ div#footer-list>ul {
 div#footer-list a {
     color: #aaa;
 }
-div#footer-list a:hover{
-    color:black;
-}
+ 
 ul#footer-list-main {
     width: 70%;
 }
@@ -363,8 +361,9 @@ ul#sns-icon {
 }
 ul#sns-icon li {
     margin-right: 15px;
-}
-
-ul#sns-icon i {
     font-size: 22px;
 }
+#sns-icon a:hover {
+    color: black;
+}
+
