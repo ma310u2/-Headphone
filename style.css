@@ -47,9 +47,11 @@ li {
 header > div > nav > ul > li > a {
     color: white;
 }
+
 header > div > nav > ul > li > a:hover {
     border-bottom: 2px solid red;
 }
+
 a {
     text-decoration: none;
 }
@@ -320,50 +322,96 @@ div#support-in img:hover {
     border-radius: 51px;
     margin: auto;
 }
+
 /*----------------フッター----------------*/
 footer {
     background-color: white;
 }
+
 div#footer-in {
     max-width: 1000px;
     margin: auto;
 }
+
 div#footer-in #logo {
     color: white;
 }
+
 div#footer-list {
     display: flex;
 }
 
-div#footer-list>ul {
+div#footer-list > ul {
     display: flex;
 }
 
-div#footer-list a {
-    color: #aaa;
-}
- 
+
 ul#footer-list-main {
     width: 70%;
 }
 
-#footer-list-main .list-top >span {
+#footer-list-main .list-top > span {
     color: black;
     margin-bottom: 10px;
     display: block;
 }
+
 ul#sns {
     width: 30%;
 }
+
 ul#sns-icon {
     display: flex;
     margin-top: 10px;
 }
-ul#sns-icon li {
+
+#sns-icon a {
+    color: #aaa;
     margin-right: 15px;
     font-size: 22px;
 }
+
 #sns-icon a:hover {
     color: black;
 }
 
+.a-border {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.a-border::after {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: '';
+}
+
+.a-border,
+.a-border::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.a-border::after {
+    bottom: -10%;
+    width: 100%;
+    height: 2px;
+}
+
+.a-border {
+    color: #aaa;
+}
+
+.a-border:hover {
+    color: red;
+}
+
+.a-border:hover::after {
+    bottom: 0;
+    background-color: red;
+}
