@@ -335,5 +335,31 @@ div#footer-list>ul {
 }
 
 div#footer-list a {
+    color: #aaa;
+}
+div#footer-list a:hover{
+    color:black;
+}
+ul#footer-list-main {
+    width: 70%;
+}
+
+#footer-list-main .list-top >a {
     color: black;
+    margin-bottom: 10px;
+    display: block;
+}
+ul#sns {
+    width: 30%;
+}
+ul#sns-icon {
+    display: flex;
+    margin-top: 10px;
+}
+ul#sns-icon li {
+    margin-right: 15px;
+}
+
+ul#sns-icon i {
+    font-size: 22px;
 }
