@@ -331,14 +331,17 @@ footer {
 div#footer-in {
     max-width: 1000px;
     margin: auto;
+    position: relative;
 }
-
 div#footer-in #logo {
     color: white;
+    float: left;
+    margin: 40px 50px 0 0;
 }
 
 div#footer-list {
     display: flex;
+    padding-top: 45px;
 }
 
 div#footer-list > ul {
@@ -349,11 +352,16 @@ div#footer-list > ul {
 ul#footer-list-main {
     width: 70%;
 }
-
+ul#footer-list-main .list-top {
+    width: 30%;
+}
 #footer-list-main .list-top > span {
     color: black;
     margin-bottom: 10px;
     display: block;
+}
+.list-top li {
+    margin-bottom: 5px;
 }
 
 ul#sns {
@@ -414,4 +422,27 @@ ul#sns-icon {
 .a-border:hover::after {
     bottom: 0;
     background-color: red;
+}
+div#header-top {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    border: 1px solid #aaa;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+div#header-top span {
+    height: 2px;
+    background-color: #aaa;
+    width: 20px;
+    display: inline-block;
+}
+
+span#top-line_1 {
+    transform: translateY(8px) translateX(7px) rotate(-43deg);
+}
+span#top-line_2 {
+    transform: translateY(8px) translateX(-5px) rotate(43deg);
 }
