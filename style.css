@@ -67,7 +67,28 @@ nav {
 nav ul {
     display: flex;
 }
+div#menu-icon {
+    margin: 20px 20px 0;
+    cursor:pointer;
+}
+.line_1, .line_2, .line_3 {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    margin-bottom: 5px;
+    transition:0.5s
 
+}
+#menu-icon.close .line_1{
+    transform: translateY(10px) rotate(225deg);
+}
+#menu-icon.close .line_2{
+    opacity: 0;
+}
+#menu-icon.close .line_3{
+    transform: translateY(-6px) rotate(-45deg);
+}
 div#sub-menu {
     display: block;
     width: 100%;
