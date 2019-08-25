@@ -89,7 +89,7 @@ div#item {
 div#item h2 {
     text-align: center;
     font-size: 36px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 div#item-in {
@@ -102,7 +102,9 @@ div#item-in section {
     width: 34%;
     text-align: center;
 }
-
+div#item-in section:nth-child(2) {
+    margin: 0 20px;
+}
 div#item-in .btn1 {
     margin-top: 25px;
 }
@@ -197,7 +199,7 @@ div#new-item {
     position: relative;
     width: 100%;
     height: 400px;
-    margin-top: 220px;
+    margin-top: 180px;
     /* max-width: 900px; */
 }
 
@@ -238,7 +240,7 @@ div#member {
     height: 300px;
     background-color: white;
     text-align: center;
-    margin: 220px auto;
+    margin: 180px auto;
 }
 
 div#member h2 {
@@ -301,7 +303,7 @@ div#support {
     /* max-width: 900px; */
     height: 340px;
     background-color: white;
-    margin: 220px auto;
+    margin: 180px auto;
     text-align: center;
 }
 
