@@ -33,7 +33,10 @@ div#logo {
     line-height: 60px;
     margin-left: 20px;
 }
-
+div#page-in {
+    width: 85%;
+    margin: auto;
+}
 /*----------------メニュー----------------*/
 header > div > nav > ul > li {
     text-align: center;
@@ -95,7 +98,14 @@ div#item-in {
     max-width: 1000px;
     margin: auto;
 }
+div#item-in section {
+    width: 34%;
+    text-align: center;
+}
 
+div#item-in .btn1 {
+    margin-top: 25px;
+}
 div#item-in section img {
     width: 240px;
     height: 240px;
@@ -110,13 +120,14 @@ div#item-in section img {
     width: 230px;
     height: 45px;
     line-height: 45px;
-    border-radius: 30px;
     margin: 0 auto;
     text-align: center;
+    border-radius: 30px;
     outline: none;
     overflow: hidden;
     position: relative;
     z-index: 2;
+
 }
 
 .btn::before,
@@ -145,23 +156,26 @@ div#item-in section img {
 
 .btn1 {
     background-color: red;
-    border: 1px solid black;
+    border: 1px solid red;
     color: white;
 }
 
 .btn1:hover {
     color: red;
+
 }
 
 .btn1:hover::after {
     bottom: 0;
     background-color: white;
+
 }
 
 a.btn2 {
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #aaa;
     color: black;
+    
 }
 
 .btn2:hover {
@@ -181,38 +195,50 @@ i.fas.fa-headphones-alt {
 /*----------------NEWcolor----------------*/
 div#new-item {
     position: relative;
-    max-width: 1000px;
-    height: 500px;
-    margin: auto;
+    width: 100%;
+    height: 400px;
+    margin-top: 220px;
+    /* max-width: 900px; */
 }
 
 div#new-item img {
-    width: 100%;
-    height: 500px;
+    width: 85%;
+    height: 100%;
     object-fit: cover;
+    max-width: 900px;
 }
 
 div#new-item-in {
     position: absolute;
     bottom: 0px;
-    right: -10px;
+    right: 0px;
     width: 500px;
-    height: 280px;
-    background-color: aqua;
+    height: 240px;
+    background-color: white;
+}
+div#new-item-in h3 {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 div#new-btn {
     display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
 }
-
+div#new-btn a {
+    width: 190px;
+}
 /*----------------会員登録----------------*/
 div#member {
-    max-width: 1000px;
-    width: 95%;
+    /* max-width: 900px; */
     height: 300px;
     background-color: white;
-    margin: 220px auto;
     text-align: center;
+    margin: 220px auto;
 }
 
 div#member h2 {
@@ -272,8 +298,7 @@ input#email_1:focus + #entry:hover::after {
 
 /*----------------サポート----------------*/
 div#support {
-    max-width: 1000px;
-    width: 95%;
+    /* max-width: 900px; */
     height: 340px;
     background-color: white;
     margin: 220px auto;
@@ -333,6 +358,7 @@ div#footer-in {
     max-width: 1000px;
     margin: auto;
     position: relative;
+    padding-bottom: 30px;
 }
 div#footer-in #logo {
     color: white;
@@ -427,7 +453,7 @@ ul#sns-icon {
 div#header-top {
     position: absolute;
     right: 20px;
-    bottom: 0;
+    bottom: 30px;
     border: 1px solid #aaa;
     width: 50px;
     height: 50px;
