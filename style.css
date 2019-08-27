@@ -15,12 +15,28 @@ header {
     height: 60px;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+div#page-in {
+    width: 85%;
+    margin: auto;
+}
+
 div#header-in {
     display: flex;
     max-width: 1000px;
     margin: auto;
+    position: relative;
+    z-index: 5;
 }
 
+/*----------------ロゴ----------------*/
 div#logo {
     font-weight: bold;
 }
@@ -33,10 +49,8 @@ div#logo {
     line-height: 60px;
     margin-left: 20px;
 }
-div#page-in {
-    width: 85%;
-    margin: auto;
-}
+
+
 /*----------------メニュー----------------*/
 header > div > nav > ul > li {
     text-align: center;
@@ -44,20 +58,13 @@ header > div > nav > ul > li {
     width: 25%;
 }
 
-li {
-    list-style: none;
-}
-
 header > div > nav > ul > li > a {
     color: white;
+    font-size: 18px;
 }
 
 header > div > nav > ul > li > a:hover {
     border-bottom: 2px solid red;
-}
-
-a {
-    text-decoration: none;
 }
 
 nav {
@@ -66,36 +73,47 @@ nav {
 
 nav ul {
     display: flex;
+    margin-left: 70px;
 }
+
+/*----------------メニューアイコン----------------*/
 div#menu-icon {
     margin: 20px 20px 0;
-    cursor:pointer;
+    cursor: pointer;
 }
-.line_1, .line_2, .line_3 {
+
+.line_1,
+.line_2,
+.line_3 {
     width: 20px;
     height: 3px;
     background-color: white;
     display: block;
     margin-bottom: 5px;
-    transition:0.5s
-
+    transition: 0.5s
 }
-#menu-icon.close .line_1{
+
+#menu-icon.close .line_1 {
     transform: translateY(10px) rotate(225deg);
 }
-#menu-icon.close .line_2{
+
+#menu-icon.close .line_2 {
     opacity: 0;
 }
-#menu-icon.close .line_3{
+
+#menu-icon.close .line_3 {
     transform: translateY(-6px) rotate(-45deg);
 }
+
+/*----------------サブメニュー----------------*/
 div#sub-menu {
     display: none;
     width: 100%;
     height: 100%;
-    background-color: rgb(0,0,0,0.7);
+    background-color: rgb(0, 0, 0, 0.7);
     position: fixed;
-    top: 60px;
+    top: 0px;
+    z-index: 4;
     text-align: center;
     font-size: 24px;
 }
@@ -104,6 +122,11 @@ div#sub-menu li {
     line-height: 50px;
     padding-top: 15px;
 }
+
+div#sub-menu li:first-child {
+    margin-top: 60px;
+}
+
 div#sub-menu a {
     color: white;
     display: inline-block;
@@ -111,8 +134,9 @@ div#sub-menu a {
     font-weight: bold;
     transition: 0.5s;
 }
+
 div#sub-menu a:hover {
-    background-color: rgb(0,0,0,0.4);
+    background-color: rgb(0, 0, 0, 0.4);
 }
 
 #top-img img {
@@ -141,16 +165,20 @@ div#item-in {
     max-width: 1000px;
     margin: auto;
 }
+
 div#item-in section {
     width: 34%;
     text-align: center;
 }
+
 div#item-in section:nth-child(2) {
     margin: 0 20px;
 }
+
 div#item-in .btn1 {
     margin-top: 25px;
 }
+
 div#item-in section img {
     width: 240px;
     height: 240px;
@@ -220,7 +248,7 @@ a.btn2 {
     background-color: white;
     border: 1px solid #aaa;
     color: black;
-    
+
 }
 
 .btn2:hover {
@@ -261,6 +289,7 @@ div#new-item-in {
     height: 240px;
     background-color: white;
 }
+
 div#new-item-in h3 {
     font-size: 32px;
     margin-top: 30px;
@@ -274,9 +303,11 @@ div#new-btn {
     left: 0;
     right: 0;
 }
+
 div#new-btn a {
     width: 190px;
 }
+
 /*----------------会員登録----------------*/
 div#member {
     /* max-width: 900px; */
@@ -405,6 +436,7 @@ div#footer-in {
     position: relative;
     padding-bottom: 30px;
 }
+
 div#footer-in #logo {
     color: white;
     float: left;
@@ -424,14 +456,17 @@ div#footer-list > ul {
 ul#footer-list-main {
     width: 70%;
 }
+
 ul#footer-list-main .list-top {
     width: 30%;
 }
+
 #footer-list-main .list-top > span {
     color: black;
     margin-bottom: 10px;
     display: block;
 }
+
 .list-top li {
     margin-bottom: 5px;
 }
@@ -495,6 +530,7 @@ ul#sns-icon {
     bottom: 0;
     background-color: red;
 }
+
 div#header-top {
     position: absolute;
     right: 20px;
@@ -505,6 +541,7 @@ div#header-top {
     border-radius: 25px;
     cursor: pointer;
 }
+
 div#header-top span {
     height: 2px;
     background-color: #aaa;
@@ -515,6 +552,7 @@ div#header-top span {
 span#top-line_1 {
     transform: translateY(8px) translateX(7px) rotate(-43deg);
 }
+
 span#top-line_2 {
     transform: translateY(8px) translateX(-5px) rotate(43deg);
 }
