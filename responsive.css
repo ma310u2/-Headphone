@@ -1,58 +1,61 @@
 @media screen and (max-width: 1023px) {
-    header{
-        display:none;
+    header {
+        display: none;
     }
-div#respo-header {
-    display: block;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 1px;
-}
-div#menu-bar {
-    display: block;
-    background-color: rgb(0,0,0,0.7);
-    position: relative;
-    z-index: 910;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-height: 100vh;
-    overflow: auto;
-}
-div#bar {
-    position: relative;
-    height: 60px;
-    text-align: center;
-    background-color: black;
+
+    div#respo-header {
+        display: block;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 1px;
+    }
+
+    div#menu-bar {
+        display: block;
+        background-color: rgb(0, 0, 0, 0.7);
+        position: relative;
+        z-index: 910;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-height: 100vh;
+        overflow: auto;
+    }
+
+    div#bar {
+        position: relative;
+        height: 60px;
+        text-align: center;
+        background-color: black;
+    }
+
+    div#menu-icon2 {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+    ul#respo-list li {
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+    }
+
+    ul.toggle-menu {
+        display: none;
+    }
+
+    ul#sub-icon {
+        display: flex;
+        justify-content: center;
+    }
 }
 
-div#menu-icon2 {
-    position: absolute;
-    right: 30px;
-    top: 20px;
-}
-ul#respo-list li {
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
-}
-ul.toggle-menu {
-    display: none;
-}
-ul#sub-icon {
-    display: flex;
-    justify-content: center;
-}
-}
 
 
+@media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 568px) {
-
-}
+@media screen and (max-width: 568px) {}

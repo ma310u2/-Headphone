@@ -35,8 +35,9 @@ div#header-in {
     position: relative;
     z-index: 5;
 }
+
 div#respo-header {
-    display:none;
+    display: none;
 }
 
 /*----------------ロゴ----------------*/
