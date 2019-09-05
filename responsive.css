@@ -1,4 +1,8 @@
 @media screen and (max-width: 1023px) {
+    .overflow {
+        overflow: hidden;
+    }
+
     header {
         display: none;
     }
@@ -32,16 +36,25 @@
         background-color: black;
     }
 
+    div#bar > #logo > span {
+        margin-left: 0px;
+    }
+
     div#menu-icon2 {
         position: absolute;
         right: 30px;
         top: 20px;
     }
 
+    #respo-menu {
+        display: none;
+    }
+
     ul#respo-list li {
         height: 200px;
         line-height: 200px;
         text-align: center;
+        color: white;
     }
 
     ul.toggle-menu {
