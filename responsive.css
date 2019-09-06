@@ -46,19 +46,14 @@
         top: 20px;
     }
 
-    #respo-menu {
+    #tog-menu1,#tog-menu2 {
         display: none;
     }
 
     ul#respo-list li {
-        height: 200px;
         line-height: 200px;
         text-align: center;
         color: white;
-    }
-
-    ul.toggle-menu {
-        display: none;
     }
 
     ul#sub-icon {
