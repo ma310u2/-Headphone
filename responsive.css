@@ -48,16 +48,18 @@
     div#respo-menu {
         display: none;
     }
-    i#togbtn1, #togbtn2 {
+    i.togbtn {
         transition: 0.5s;
         font-size: 50px;
         float: right;
         position: relative;
         top: 70px;
         right: 10px;
+        opacity: 0.3;
     }
-    .roll {
+    .togbtn.roll {
         transform: rotate(180deg);
+        opacity: 1;
     }
 
     #tog-menu1,#tog-menu2 {
