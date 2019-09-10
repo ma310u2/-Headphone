@@ -45,17 +45,39 @@
         right: 30px;
         top: 20px;
     }
+    div#respo-menu {
+        display: none;
+    }
+    i#togbtn1, #togbtn2 {
+        transition: 0.5s;
+        font-size: 50px;
+        float: right;
+        position: relative;
+        top: 70px;
+        right: 10px;
+    }
+    .roll {
+        transform: rotate(180deg);
+    }
 
     #tog-menu1,#tog-menu2 {
         display: none;
     }
-
+    ul#respo-list>li {
+        width: 75%;
+        margin: auto;
+        position: relative;
+    }
     ul#respo-list li {
         line-height: 200px;
         text-align: center;
         color: white;
+        font-size: 32px;
     }
-
+    ul#respo-list a {
+        color: white;
+    }
+    
     ul#sub-icon {
         display: flex;
         justify-content: center;
