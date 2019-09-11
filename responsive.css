@@ -52,7 +52,7 @@
         transition: 0.5s;
         font-size: 50px;
         float: right;
-        position: relative;
+        position: absolute;
         top: 70px;
         right: 10px;
         opacity: 0.3;
@@ -89,10 +89,33 @@
         color: #ccc;
         padding: 0px 15px;
     }
+    div#new-item img {
+        width:100%;
+    }
+    div#new-item-in{
+        width:100%;
+        position: relative;
+        top: -36px;
+        height: 180px;
+    }
+    div#member{
+        margin-top: 250px;
+    }
+
 }
 
 
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    div#support{
+        height:auto;
+    }
+    div#support-in {
+        flex-wrap: wrap;
+    }
+    div#support-in section{
+        width:50%;
+    }
+}
 
 @media screen and (max-width: 568px) {}
