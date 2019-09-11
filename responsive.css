@@ -79,93 +79,7 @@
     ul#respo-list a {
         color: white;
     }
-    
-    ul#sub-icon {
-        display: flex;
-        justify-content: center;
-    }
-    @media screen and (max-width: 1023px) {
-    .overflow {
-        overflow: hidden;
-    }
 
-    header {
-        display: none;
-    }
-
-    div#respo-header {
-        display: block;
-        position: fixed;
-        z-index: 1000;
-        top: 0;
-        left: 0;
-        width: 100%;
-        min-height: 1px;
-    }
-
-    div#menu-bar {
-        display: block;
-        background-color: rgb(0, 0, 0, 0.7);
-        position: relative;
-        z-index: 910;
-        top: 0;
-        left: 0;
-        width: 100%;
-        max-height: 100vh;
-        overflow: auto;
-    }
-
-    div#bar {
-        position: relative;
-        height: 60px;
-        text-align: center;
-        background-color: black;
-    }
-
-    div#bar > #logo > span {
-        margin-left: 0px;
-    }
-
-    div#menu-icon2 {
-        position: absolute;
-        right: 30px;
-        top: 20px;
-    }
-    div#respo-menu {
-        display: none;
-    }
-    i.togbtn {
-        transition: 0.5s;
-        font-size: 50px;
-        float: right;
-        position: relative;
-        top: 70px;
-        right: 10px;
-        opacity: 0.3;
-    }
-    .togbtn.roll {
-        transform: rotate(180deg);
-        opacity: 1;
-    }
-
-    #tog-menu1,#tog-menu2 {
-        display: none;
-    }
-    ul#respo-list>li {
-        width: 75%;
-        margin: auto;
-        position: relative;
-    }
-    ul#respo-list li {
-        line-height: 200px;
-        text-align: center;
-        color: white;
-        font-size: 32px;
-    }
-    ul#respo-list a {
-        color: white;
-    }
-    
     ul#sub-icon {
         display: flex;
         justify-content: center;
@@ -175,14 +89,6 @@
         color: #ccc;
         padding: 0px 15px;
     }
-}
-
-
-
-@media screen and (max-width: 768px) {}
-
-@media screen and (max-width: 568px) {}
-
 }
 
 
