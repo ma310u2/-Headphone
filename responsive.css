@@ -95,11 +95,10 @@
     div#new-item-in{
         width:100%;
         position: relative;
-        top: -36px;
         height: 180px;
     }
     div#member{
-        margin-top: 250px;
+        margin-top:50px;
     }
 
 }
