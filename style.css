@@ -480,7 +480,7 @@ div#sns {
     width: 30%;
 }
 
-div#sns-icon {
+ul#sns-icon {
     display: flex;
     margin-top: 10px;
 }
