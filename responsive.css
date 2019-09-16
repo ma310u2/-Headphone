@@ -47,6 +47,7 @@
     }
     div#respo-menu {
         display: none;
+        height: 100vh;
     }
     i.togbtn {
         transition: 0.5s;
@@ -106,6 +107,38 @@
 
 
 @media screen and (max-width: 768px) {
+    div#item-in{
+        display: block;
+    }
+    div#item-in section{
+        width: 100%;
+    }
+
+    input#email_1{
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+     }
+     div#item-in section:nth-child(2){
+         margin-left:0px;
+     }
+    
+
+    button#entry{
+        margin-top:20px;
+        border-radius: 20px;
+    }
+    input#email_1:focus{
+        width:90%;
+
+    }
+    input#email_1:focus + #entry{
+        position: relative;
+        transform: none;
+    }
+
     div#support{
         height:auto;
     }
@@ -114,6 +147,23 @@
     }
     div#support-in section{
         width:50%;
+    }
+    div#footer-in #logo{
+        display:none;
+    }
+    div#footer-list #footer-list-main{
+        display: none;
+    }
+    div#sns{
+        width:100%;
+    }
+    span.list-top {
+    display: none;
+    }
+
+    #sns-icon li{
+        width: 100%;
+        text-align: center;
     }
 }
 
