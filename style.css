@@ -453,13 +453,13 @@ div#footer-list {
     padding-top: 45px;
 }
 
-div#footer-list > ul {
-    display: flex;
+div#footer-list>ul {
 }
 
 
 ul#footer-list-main {
     width: 70%;
+    display: flex;
 }
 
 ul#footer-list-main .list-top {
@@ -476,11 +476,11 @@ ul#footer-list-main .list-top {
     margin-bottom: 5px;
 }
 
-ul#sns {
+div#sns {
     width: 30%;
 }
 
-ul#sns-icon {
+div#sns-icon {
     display: flex;
     margin-top: 10px;
 }
