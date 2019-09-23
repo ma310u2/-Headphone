@@ -167,4 +167,22 @@
     }
 }
 
-@media screen and (max-width: 568px) {}
+@media screen and (max-width: 568px) {
+    div#item h2{
+        font-size:24px;
+    }
+    div#new-item-in h3{
+        font-size:24px;
+    }
+    div#member h2{
+        font-size:28px;
+    }
+    input#email_1{
+        padding-left: 0px;
+        font-size: 13px;
+        text-align: center;
+    }
+    div#support h2{
+        font-size:28px;
+    }
+}
