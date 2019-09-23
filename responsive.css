@@ -97,6 +97,7 @@
         width:100%;
         position: relative;
         height: 180px;
+        padding: 10px;
     }
     div#member{
         margin-top:50px;
@@ -176,6 +177,12 @@
     }
     div#member h2{
         font-size:28px;
+    }
+    div#new-btn{
+        margin-top:20px;
+        display: inline-block;
+        position: unset;
+        text-align: center;
     }
     input#email_1{
         padding-left: 0px;
