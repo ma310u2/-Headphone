@@ -114,11 +114,15 @@
     div#item-in section{
         width: 100%;
     }
+    .btn{
+        height: 35px;
+        line-height: 35px;
+    }
 
     input#email_1{
         border: 2px solid black;
         border-radius: 20px;
-        width: 75%;
+        width: 80%;
         display: block;
         margin: 0 auto;
      }
