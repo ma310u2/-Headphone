@@ -187,6 +187,11 @@
         display: inline-block;
         position: unset;
         text-align: center;
+        width: 100%;
+    }
+    div#new-btn a{
+        margin-top:10px;
+        display:block;
     }
     input#email_1{
         padding-left: 0px;
