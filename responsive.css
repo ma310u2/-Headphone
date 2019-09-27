@@ -88,9 +88,12 @@
         font-size: 30px;
         padding-bottom: 50px;
     }
+    ul#sub-icon li{
+        padding: 0px 25px;
+    }
     ul#sub-icon i {
         color: #ccc;
-        padding: 0px 25px;
+        
     }
     div#new-item img {
         width:100%;
