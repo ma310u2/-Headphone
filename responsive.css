@@ -62,9 +62,10 @@
         transform: rotate(180deg);
         opacity: 1;
     }
-
-    #tog-menu1,#tog-menu2 {
+    #tog-menu1, #tog-menu2 {
         display: none;
+        max-width: 580px;
+        margin: auto;
     }
     ul#respo-list>li {
         width: 75%;
