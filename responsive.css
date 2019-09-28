@@ -144,7 +144,6 @@
 @media screen and (max-width: 768px) {
     ul#respo-list li{
         font-size: 16px;
-        margin: 10px auto;
     }
     ul#sub-icon{
         font-size:22px
