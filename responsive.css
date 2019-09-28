@@ -67,9 +67,9 @@
         max-width: 580px;
         margin: auto;
     }
-    ul#tog-menu1 li {
+        ul#tog-menu1 li {
         position: relative;
-        margin-top: 10px;
+        margin-top:10px;
     }
     ul#tog-menu1 span {
         position: absolute;
@@ -92,7 +92,7 @@
     ul#respo-list>li {
         width: 75%;
         position: relative;
-        /* margin: 10px auto; */
+        margin: 10px auto;
     }
     ul#respo-list li {
         /* line-height: 200px; */
