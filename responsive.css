@@ -90,7 +90,7 @@
         /* line-height: 200px; */
         /* text-align: center; */
         color: white;
-        font-size: 32px;
+        font-size: 22px;
     }
     ul#respo-list a {
         color: white;
@@ -136,7 +136,7 @@
 
 @media screen and (max-width: 768px) {
     ul#respo-list li{
-        font-size: 22px;
+        font-size: 16px;
     }
     ul#sub-icon{
         font-size:22px
@@ -205,6 +205,9 @@
     #sns-icon li{
         width: 100%;
         text-align: center;
+    }
+    #header-top{
+        display:none;
     }
 }
 
