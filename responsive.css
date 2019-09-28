@@ -69,17 +69,25 @@
     }
     ul#respo-list>li {
         width: 75%;
-        margin: auto;
         position: relative;
+        margin: 10px auto;
     }
     ul#respo-list li {
-        line-height: 200px;
-        text-align: center;
+        /* line-height: 200px; */
+        /* text-align: center; */
         color: white;
         font-size: 32px;
     }
     ul#respo-list a {
         color: white;
+    }
+    .list-main img {
+        max-width: 100%;
+        display: block;
+    }
+    .list-main span {
+        position: absolute;
+        top: 80px;
     }
 
     ul#sub-icon {
