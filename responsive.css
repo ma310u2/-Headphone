@@ -80,16 +80,17 @@
     ul#tog-menu2 li {
         width: 100%;
         background-color: #1f1f1f;
-        height: 55px;
+        height: 70px;
         display: inline-block;
-        line-height: 55px;
+        line-height: 70px;
     }
      ul#tog-menu2 a {
         display: inline-block;
         width: 100%;
         border-bottom: #ccc 1px solid;
-        height: 55px;
-        padding: 0 10px;
+        height: 70px;
+        padding: 0px 60px;
+        box-sizing: border-box;
      }
     ul#respo-list>li {
         width: 75%;
@@ -147,6 +148,11 @@
 @media screen and (max-width: 768px) {
     ul#respo-list li{
         font-size: 16px;
+    }
+    ul#tog-menu2 li{height: 55px;line-height: 55px;}
+    ul#tog-menu2 a{
+        height: 55px;
+        padding: 0 15px;
     }
     ul#sub-icon{
         font-size:22px
