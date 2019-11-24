@@ -143,6 +143,9 @@
     div#member{
         margin-top:50px;
     }
+    div#footer-in #logo{
+        display:none;
+    }
 
 }
 
