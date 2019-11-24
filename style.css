@@ -484,18 +484,18 @@ div#sns {
     width: 30%;
 }
 
-ul#sns-icon {
+ul.sns-icon {
     display: flex;
     margin-top: 10px;
 }
 
-#sns-icon a {
+.sns-icon a {
     color: #aaa;
     margin-right: 15px;
     font-size: 22px;
 }
 
-#sns-icon a:hover {
+.sns-icon a:hover {
     color: black;
 }
 
