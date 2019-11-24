@@ -224,7 +224,7 @@
     display: none;
     }
 
-    #sns-icon li{
+    .sns-icon li{
         width: 100%;
         text-align: center;
     }
