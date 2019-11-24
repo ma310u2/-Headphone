@@ -224,9 +224,16 @@
     display: none;
     }
 
-    .sns-icon li{
+    .sns-li{
         width: 100%;
         text-align: center;
+    }
+    #sns-mobile{
+        display: flex;
+        width: 100%;
+    }
+    #sns-mobile{
+
     }
     #header-top{
         display:none;
