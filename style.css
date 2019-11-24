@@ -461,11 +461,11 @@ div#footer-list>ul {
 ul#footer-list-main {
     width: 100%;
     display: flex;
-    margin: 0 15px;
+    margin: 0px 20px;
 }
 
 .list-in {
-    width: 30%;
+    width: 35%;
 }
 
 .list-top{
@@ -473,6 +473,7 @@ ul#footer-list-main {
     margin-bottom: 10px;
     display: block;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .list-in li {
