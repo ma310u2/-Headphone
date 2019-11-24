@@ -451,7 +451,7 @@ div#footer-in #logo {
 
 div#footer-list {
     display: flex;
-    padding-top: 45px;
+    padding: 45px 30px;
 }
 
 div#footer-list>ul {
@@ -459,7 +459,7 @@ div#footer-list>ul {
 
 
 ul#footer-list-main {
-    width: 70%;
+    width: 100%;
     display: flex;
 }
 
