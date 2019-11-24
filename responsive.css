@@ -214,6 +214,9 @@
     div#footer-in #logo{
         display:none;
     }
+    div#footer-list{
+        padding:0;
+    }
     div#footer-list #footer-list-main{
         display: none;
     }
