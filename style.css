@@ -463,17 +463,17 @@ ul#footer-list-main {
     display: flex;
 }
 
-ul#footer-list-main .list-top {
+ul#footer-list-main .list-in {
     width: 30%;
 }
 
-#footer-list-main .list-top > span {
+#footer-list-main .list-top{
     color: black;
     margin-bottom: 10px;
     display: block;
 }
 
-.list-top li {
+.list-in li {
     margin-bottom: 5px;
 }
 
