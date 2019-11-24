@@ -498,7 +498,9 @@ ul.sns-icon {
 .sns-icon a:hover {
     color: black;
 }
-
+#sns-mobile{
+    display:none;
+}
 .a-border {
     display: inline-block;
     position: relative;
