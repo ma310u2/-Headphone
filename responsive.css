@@ -51,7 +51,7 @@
     }
     #menu-icon2, .move-icon {
         transition: 0.5s;
-        transform: matrix(1, 0, 0, 1, 0, 0);
+        transform: matrix(1, 0, 0, 1, -20, 0);
         display: none;
     }
     
