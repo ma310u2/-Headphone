@@ -47,12 +47,10 @@
         position: absolute;
         right: 30px;
         top: 20px;    
-        display: block;
     }
     #menu-icon2, .move-icon {
         transition: 0.5s;
         transform: matrix(1, 0, 0, 1, -20, 0);
-        display: none;
     }
     
     i#close {
@@ -64,12 +62,10 @@
         font-size: 24px;
         display: none;
         transition: 0.5s;
-        display: none;
     }
 
     .close-move {
         transform: matrix(1, 0, 0, 1, -20, 0);
-        display: block;
     }
     div#respo-menu {
         display: none;
