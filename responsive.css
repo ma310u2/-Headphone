@@ -42,20 +42,35 @@
     div#bar > #logo > span {
         margin-left: 0px;
     }
+    div#icon-move {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        width: 20px;
+        overflow: hidden;
+    }
 
     div#menu-icon2 {
-        position: absolute;
-        right: 30px;
-        top: 20px;    
+        /* position: absolute; */
+        /* right: 30px; */
+        /* top: 20px; */
+        transition:0.5s;
     }
     
     i#close {
-        position: absolute;
-        right: 0px;
-        top: 17px;
-        width: 40px;
+        /* position: absolute; */
+        /* right: 0px; */
+        /* top: 17px; */
+        /* width: 40px; */
+        padding-left: 1px;
         color: white;
-        font-size: 24px;
+        font-size: 25px;
+        margin-top: -3px;
+        transition:0.5s;
+    }
+    .icon-slide{
+        transform: matrix(1, 0, 0, 1, -20, 0);
     }
 
     div#respo-menu {
