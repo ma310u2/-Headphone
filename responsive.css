@@ -2,8 +2,9 @@
     .overflow {
         overflow: hidden;
     }
-    .hide{
-        display:none;
+
+    .hide {
+        display: none;
     }
 
     header {
@@ -42,6 +43,7 @@
     div#bar > #logo > span {
         margin-left: 0px;
     }
+
     div#icon-move {
         position: absolute;
         top: 20px;
@@ -52,24 +54,18 @@
     }
 
     div#menu-icon2 {
-        /* position: absolute; */
-        /* right: 30px; */
-        /* top: 20px; */
-        transition:0.5s;
+        transition: 0.5s;
     }
-    
+
     i#close {
-        /* position: absolute; */
-        /* right: 0px; */
-        /* top: 17px; */
-        /* width: 40px; */
         padding-left: 1px;
         color: white;
         font-size: 25px;
         margin-top: -3px;
-        transition:0.5s;
+        transition: 0.5s;
     }
-    .icon-slide{
+
+    .icon-slide {
         transform: matrix(1, 0, 0, 1, -20, 0);
     }
 
@@ -77,34 +73,42 @@
         display: none;
         height: 100vh;
     }
+
     i.togbtn {
         transition: 0.5s;
         font-size: 50px;
-        float: right;
+        /* float: right; */
         position: absolute;
-        top: 70px;
-        right: 80px;
+        top: -50%;
+        right: 5%;
         opacity: 0.3;
     }
+
     .togbtn.roll {
         transform: rotate(180deg);
         opacity: 1;
     }
-    #tog-menu1, #tog-menu2 {
+
+    #tog-menu1,
+    #tog-menu2 {
         display: none;
         margin: auto;
     }
-    #tog-menu1{
+
+    #tog-menu1 {
         max-width: 600px;
     }
+
     ul#tog-menu1 li {
         position: relative;
-        margin-top:10px;
+        margin-top: 10px;
     }
+
     ul#tog-menu1 span {
         position: absolute;
-        top: 80px;
+        top: 40%;
     }
+
     ul#tog-menu2 li {
         width: 100%;
         background-color: #1f1f1f;
@@ -112,39 +116,53 @@
         display: inline-block;
         line-height: 70px;
     }
-     ul#tog-menu2 a {
+
+    ul#tog-menu2 a {
         display: inline-block;
         width: 100%;
         border-bottom: #ccc 1px solid;
         height: 70px;
         padding: 0px 60px;
         box-sizing: border-box;
-     }
+    }
+
     ul#respo-list {
         max-width: 720px;
         margin: auto;
     }
-    ul#respo-list>li {
-        /* width: 75%; */
+
+    ul#respo-list > li {
         position: relative;
         margin: 10px;
     }
+
+    ul#respo-list > li > a {
+        position: relative;
+        display: block;
+    }
+
     ul#respo-list li {
-        /* line-height: 200px; */
-        /* text-align: center; */
         color: white;
         font-size: 22px;
     }
+
     ul#respo-list a {
         color: white;
     }
+
     .list-main img {
         max-width: 100%;
         display: block;
     }
+
     .list-main span {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title {
         position: absolute;
-        top: 85px;
+        top: 45%;
     }
 
     ul#sub-icon {
@@ -153,27 +171,33 @@
         font-size: 30px;
         padding-bottom: 50px;
     }
-    ul#sub-icon li{
+
+    ul#sub-icon li {
         padding: 0px 25px;
     }
+
     ul#sub-icon i {
         color: #ccc;
-        
+
     }
+
     div#new-item img {
-        width:100%;
+        width: 100%;
     }
-    div#new-item-in{
-        width:100%;
+
+    div#new-item-in {
+        width: 100%;
         position: relative;
         height: 180px;
         padding: 10px;
     }
-    div#member{
-        margin-top:50px;
+
+    div#member {
+        margin-top: 50px;
     }
-    div#footer-in #logo{
-        display:none;
+
+    div#footer-in #logo {
+        display: none;
     }
 
 }
@@ -181,130 +205,155 @@
 
 
 @media screen and (max-width: 768px) {
-    ul#respo-list li{
+    ul#respo-list li {
         font-size: 16px;
     }
-    ul#tog-menu2 li{
+
+    i.togbtn {
+        font-size: 40px;
+    }
+
+    ul#tog-menu2 li {
         height: 55px;
         line-height: 55px;
     }
-    ul#tog-menu2 a{
+
+    ul#tog-menu2 a {
         height: 55px;
         padding: 0 15px;
     }
-    ul#sub-icon{
-        font-size:22px
+
+    ul#sub-icon {
+        font-size: 22px
     }
-    div#item-in{
+
+    div#item-in {
         display: block;
     }
-    div#item-in section{
+
+    div#item-in section {
         width: 100%;
         margin-bottom: 40px;
     }
-    .btn{
+
+    .btn {
         height: 35px;
         line-height: 35px;
     }
 
-    input#email_1{
+    input#email_1 {
         border: 2px solid black;
         border-radius: 20px;
         width: 80%;
         display: block;
         margin: 0 auto;
-     }
-     div#item-in section:nth-child(2){
-         margin-left:0px;
-         margin-bottom: 40px;
-     }
-    
+    }
 
-    button#entry{
-        margin-top:20px;
+    div#item-in section:nth-child(2) {
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+
+
+    button#entry {
+        margin-top: 20px;
         border-radius: 20px;
     }
-    input#email_1:focus{
-        width:90%;
+
+    input#email_1:focus {
+        width: 90%;
 
     }
-    input#email_1:focus + #entry{
+
+    input#email_1:focus + #entry {
         position: relative;
         transform: none;
     }
 
-    div#support{
-        height:auto;
+    div#support {
+        height: auto;
     }
+
     div#support-in {
         flex-wrap: wrap;
     }
-    div#support-in section{
-        width:50%;
+
+    div#support-in section {
+        width: 50%;
         padding-bottom: 25px;
     }
-    div#footer-in #logo{
-        display:none;
-    }
-    div#footer-list{
-        padding:0;
-    }
-    div#footer-list #footer-list-main{
+
+    div#footer-in #logo {
         display: none;
     }
-    div#sns{
-        width:100%;
-    }
-    span.list-in {
-    display: none;
+
+    div#footer-list {
+        padding: 0;
     }
 
-    .sns-li{
+    div#footer-list #footer-list-main {
+        display: none;
+    }
+
+    div#sns {
+        width: 100%;
+    }
+
+    span.list-in {
+        display: none;
+    }
+
+    .sns-li {
         width: 100%;
         text-align: center;
     }
-    #sns-mobile{
+
+    #sns-mobile {
         display: flex;
         width: 80%;
         margin: 0 auto;
         padding: 30px 0;
         border-bottom: 1px solid #aaa;
     }
-    #sns-mobile{
 
-    }
-    #header-top{
-        display:none;
+    #header-top {
+        display: none;
     }
 }
 
 @media screen and (max-width: 568px) {
-    div#item h2{
-        font-size:24px;
+    div#item h2 {
+        font-size: 24px;
     }
-    div#new-item-in h3{
-        font-size:24px;
+
+    div#new-item-in h3 {
+        font-size: 24px;
     }
-    div#member h2{
-        font-size:28px;
+
+    div#member h2 {
+        font-size: 28px;
     }
-    div#new-btn{
-        margin-top:20px;
+
+    div#new-btn {
+        margin-top: 20px;
         display: inline-block;
         position: unset;
         text-align: center;
         width: 100%;
     }
-    div#new-btn a{
-        margin-top:10px;
-        display:block;
+
+    div#new-btn a {
+        margin-top: 10px;
+        display: block;
     }
-    input#email_1{
+
+    input#email_1 {
         padding-left: 0px;
         font-size: 13px;
         text-align: center;
     }
-    div#support h2{
-        font-size:28px;
+
+    div#support h2 {
+        font-size: 28px;
     }
 }
